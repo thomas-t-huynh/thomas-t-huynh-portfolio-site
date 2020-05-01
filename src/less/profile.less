@@ -1,0 +1,39 @@
+.profile-section {
+    background: @primary-background;
+    .flex(column);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    h1 {
+        letter-spacing: .5rem;
+        font-weight: 500;
+        margin-top: -8rem;
+        margin-bottom: 5rem;
+        text-rendering: optimizeLegibility;
+    }
+    h3 {
+        letter-spacing: .5rem;
+        font-weight: normal;
+        font-family: 'Noto Sans', sans-serif;
+        margin-top: -4rem;
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+        text-rendering: optimizeLegibility;
+        hr {
+            border: 1px solid orange;
+        }
+    }
+    .profile-profile_image {
+        position: relative;
+        top: -10rem;
+        height: 20rem;
+        width: 20rem;
+        background-image: url("../images/thomas.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: .7rem solid @primary-background;
+        border-radius: 10rem;
+        background-position: 50% 50%;
+        margin-bottom: 0;
+    }
+}
