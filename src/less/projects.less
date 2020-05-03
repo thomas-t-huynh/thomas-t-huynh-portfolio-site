@@ -1,6 +1,8 @@
 .projects-section {
+    padding-top: @s-spacer;
     background: @secondary-background;
     .flex();
+    flex-wrap: wrap;
     .inner_box_shadow(@tertiary-background);
     .projects-project_card {
         .flex(column);
@@ -9,7 +11,7 @@
         border-radius: 1rem;
         height: 20rem;
         width: 45%;
-        margin: @m-spacer auto;
+        margin: 0 auto @s-spacer auto;
         background: @tertiary-background;
         padding: @s-spacer;
         .inner_box_shadow(black);
