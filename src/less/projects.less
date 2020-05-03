@@ -1,0 +1,27 @@
+.projects-section {
+    background: @secondary-background;
+    .flex();
+    .projects-project_card {
+        background: black;
+        border-radius: 1rem;
+        height: 20rem;
+        width: 40%;
+        margin: @m-spacer 5%;
+        background: @tertiary-background;
+        padding: @s-spacer;
+        h3 {
+            font-size: 2rem;
+            
+            hr {
+                .custom_hr(orange);
+                margin-bottom: 0;
+            }
+        }
+        li {
+            font-family: 'Noto Sans', sans-serif;
+            margin-left: .5rem;
+
+        }
+    }
+    
+}
